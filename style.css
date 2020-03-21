@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+}
+h1{
+    font-size: 50px;
+    color: #C5165F;
+}
+h2{
+    font-size: 30px;
+    color: black;
+}
+h3{
+    color:black;
+    font-size: 22px;
+}
+h4{
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+}
+.top-part{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.middle-part{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.work{
+    background-image: url("images/latest-work-bg.png");
+    
+}
+section{
+    height: 500px;
+    margin-bottom:200px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 3%;
+}
+.half-width img{
+    width: 75%;
+    float: left;
+}
+.work img{
+    width: 25%;
+    padding-left:6%
+}
+.upper{
+   padding-top: 10%;
+   padding-left: 10%;
+}
+.myButton {
+	box-shadow:inset -28px 35px 0px -26px #FFCA1C;
+	background-color:#C5165F;
+	border-radius:0px 25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:11px 45px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #cf4036;
+    
+}
+.myButton:hover {
+    background-color:#FFCA1C;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton-2 {
+	box-shadow:inset 26px 35px 0px -26px #FFCA1C;
+	background-color:#C5165F;
+	border-radius:25px 0px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:11px 45px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #cf4036;
+    
+}
+.myButton-2:hover {
+    background-color:#FFCA1C;
+    color: black;
+    transition: 0.5s all ease-in-out;
+}
+.myButton-2:active {
+	position:relative;
+	top:1px;
+}
+.works-image{
+    padding-top: 100px;
+}
+
+#testimonial{
+    background-image: url("images/biography-bg.png");  
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+   padding: 10px;
+}
+.footer-bg{
+    width: 50%;
+    color: ivory;
+    background-color:#FF4991;
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px;
+
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
